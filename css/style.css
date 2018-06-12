@@ -170,7 +170,8 @@
 	.lazyWrap .floor .fc .fSide{width:330px;float:left}
 	.lazyWrap .floor .fc .fMain{width:878px;float:left}
 	.lazyWrap .floor .fc .fMain ul{position:relative}
-	.lazyWrap .floor .fc .fMain ul li{overflow:hidden;position:absolute;left:0px;top:0px;z-index:1}
+	.lazyWrap .floor .fc .fMain ul li{overflow:hidden;position:absolute;left:0px;top:0px;z-index:1;display:none;}
+	.lazyWrap .floor .fc .fMain ul li.first{display:list-item;}
 	.lazyWrap .floor .fc .fMain ul li .fPro{width:218px;height:237px;float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed}
 	.lazyWrap .floor .fc .fMain ul li .fPro .fPic{display:block;padding:13px 40px 0px 40px}
 	.lazyWrap .floor .fc .fMain ul li .fPro p{padding:6px 30px;line-height:20px;height:40px}
